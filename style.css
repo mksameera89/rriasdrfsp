@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background: linear-gradient(135deg, rgb(0, 127, 8) 60%, rgb(102, 255, 0));
+}
+
+.header-container {
+    background-color: rgb(41, 41, 48);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+}
+
+h2 {
+    color: rgb(255, 166, 0);
+    font-size: 2em;
+   
+    
+}
+
+.logo {
+    margin: 10px 20px;
+    height: 10rem;
+}
+
+.img-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+} 
+
+.image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    
+    border-radius: 10%;
+    transition: all 1s;
+    
+}
+
+.photo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+}
+
+.shadow {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    border-radius: 10%;
+    background: transparent;
+    z-index: 1;
+}
+
+
+.image:hover {
+    transform: scale(1.05);
+
+}
+
+.shadow:hover {
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+
+.certified {
+  
+}
+
+.person {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 200px;
+    margin: 10px;
+    border-color: aliceblue;
+    border-width: 10px;
+}
+
+.details {
+    text-align: center;
+    color: rgb(190, 202, 213);
+}
